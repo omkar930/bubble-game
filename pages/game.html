@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #container {
+        position: relative;
+        }
+        #container canvas, #overlay {
+            position: absolute;
+        }
+        #overlay{
+            font-size: larger;
+            color: black;
+            margin-top:5px;
+            margin-left: 10px;
+        }
+        canvas{
+            background-color: rgb(225, 225, 225);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <canvas></canvas>
+        <div id="overlay">0000</div>
+    </div>
+    
+    <script src="../scripts/game/game.js"></script>
+</body>
+</html>

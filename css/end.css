@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 225, 225);
+}
+
+ul{
+    position: relative;
+    width: 450px;
+    margin: 50px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden;
+}
+ul li {
+    display: flex;
+    background: rgba(0,0,0,.1);
+    padding :10px 20px;
+    color: #fff;
+    margin:5px 0;
+    transition: .5s
+}
+
+ul li:nth-child(1){
+    background: rgba(0,0,0,.6);
+}
+ul li:nth-child(2){
+    background: rgba(0,0,0,.4);
+}
+ul li:nth-child(3){
+    background: rgba(0,0,0,.2);
+}
+
+ul li span:nth-child(1){
+    width: 30px;
+}
+ul li span:nth-child(2){
+    width: 200px;
+}
+ul li span:nth-child(3){
+    width: 100px;
+}
+ul li span:nth-child(4){
+    width: 100px;
+}
+ul li:hover{
+    transform: scale(1.06);
+    background: rgba(0,0,0,.8);
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin: 50px;
+}
+
+button{
+    padding: 5px 10px;
+}
+.input_name{
+    padding: 5px 10px;
+}
