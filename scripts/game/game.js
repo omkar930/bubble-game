@@ -167,6 +167,9 @@ function animate() {
     // Clear the entire canvas
     c.clearRect(0, 0, canvas.width, canvas.height);
 
+    //set score
+    document.getElementById('overlay').innerText=points;
+
     // Update and draw the player character
     player.draw();
 
